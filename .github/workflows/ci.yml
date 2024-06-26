@@ -22,4 +22,4 @@ jobs:
           curl -O https://download.panoptica.app/panoptica-cicd/1.4.0/artifacts/linux-amd64/panoptica-cicd && chmod +x ./panoptica-cicd
       - name: Run image scan
         run: |
-          ./panoptica-cicd image my-image:latest --local --report --api-key="api-key" --policies=
+          ./panoptica-cicd image my-image:latest --local --report --api-key="TODO ADD API KEY" --policies="TODO ADD POLICY"
