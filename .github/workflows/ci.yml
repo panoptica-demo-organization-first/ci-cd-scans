@@ -19,7 +19,7 @@ jobs:
           tags: my-image:latest
       - name: Install Panoptica CICD CLI
         run: |
-          curl -O https://download.panoptica.app/panoptica-cicd/1.4.0/artifacts/linux-amd64/panoptica-cicd && chmod +x ./panoptica-cicd
+          curl -O https://download.panoptica.app/panoptica-cicd/1.4.1/artifacts/linux-amd64/panoptica-cicd && chmod +x ./panoptica-cicd
       - name: Run image scan
         run: |
           ./panoptica-cicd image my-image:latest --local --report --policies=ci-cd-demo-rule --api-key=ODcyOTAwMzMtMzRkNS00M2U5LTlkZGEtMzk3ZDk3YWU0NWQwQGFrLmV0aWNsb3VkLmlvOmFHMmo5bWIoZnY+S0BAeDA6Q0E3OzZOcjE1VDE3LXV9Nj5QRmg+NEh2RSg7NTNiR0hAbDMpNzRXT1YsZG9Lei0=
