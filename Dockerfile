@@ -2,9 +2,9 @@
 FROM node:18-alpine
 
 
-# RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
-# USER appuser
+USER appuser
 
 # Set the working directory
 WORKDIR /usr/app
