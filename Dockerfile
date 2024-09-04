@@ -5,6 +5,8 @@ FROM node:18-alpine
 
 # USER appuser
 
+
+
 # Set the working directory
 WORKDIR /usr/app
 
