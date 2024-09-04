@@ -46,4 +46,4 @@ jobs:
           curl -O https://download.panoptica.app/panoptica-cicd/1.6.0/artifacts/linux-amd64/panoptica-cicd && chmod +x ./panoptica-cicd
       - name: Run iac scan
         run: |
-          ./panoptica-cicd secrets . --report --api-key=ODcyOTAwMzMtMzRkNS00M2U5LTlkZGEtMzk3ZDk3YWU0NWQwQGFrLmV0aWNsb3VkLmlvOmFHMmo5bWIoZnY+S0BAeDA6Q0E3OzZOcjE1VDE3LXV9Nj5QRmg+NEh2RSg7NTNiR0hAbDMpNzRXT1YsZG9Lei0=
+          ./panoptica-cicd secrets . --report --api-key=ODcyOTAwMzMtMzRkNS00M2U5LTlkZGEtMzk3ZDk3YWU0NWQwQGFrLmV0aWNsb3VkLmlvOmFHMmo5bWIoZnY+S0BAeDA6Q0E3OzZOcjE1VDE3LXV9Nj5QRmg+NEh2RSg7NTNiR0hAbDMpNzRXT1YsZG9Lei0= --exit-on-finding
